@@ -17,3 +17,12 @@ puts '-----------------------------'
 puts city.upcase!() # this will change city variable's value
 puts city
 puts city.upcase!() == nil ? "Nil" : "" # this will return nil as nothing happens
+
+puts city.reverse()
+
+name = "John"
+crypto = "SHA"
+bit = 256
+
+# string interpolation
+puts "#{name} like playing #{crypto}-#{bit} game"
